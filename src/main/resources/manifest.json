@@ -1,0 +1,26 @@
+{
+    "Group": "JarHax",
+    "Name": "EyeSpy",
+    "Version": "2026.1.20-5708",
+    "Description": "",
+    "Authors": [
+        {
+            "Name": "Jaredlll08",
+            "Url": "https://blamejared.com"
+        },
+        {
+            "Name": "Darkhax",
+            "Url": "https://darkhax.net"
+        }
+    ],
+    "Website": "https://www.curseforge.com/hytale/mods/eyespy",
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Dependencies": {
+        "Hytale:EntityModule": "*",
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {},
+    "ServerVersion": "*",
+    "Main": "com.jarhax.eyespy.EyeSpy"
+}
