@@ -33,6 +33,7 @@ import com.marasca.mobcounter.api.hud.HudProvider;
 import com.marasca.mobcounter.api.hud.MultiHudProvider;
 import com.marasca.mobcounter.api.hud.VanillaHudProvider;
 import com.marasca.mobcounter.impl.hud.PlayerTickSystem;
+import com.marasca.mobcounter.impl.info.MobCounterSystem;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -51,6 +52,7 @@ extends JavaPlugin {
     protected void setup() {
         super.setup();
         this.getEntityStoreRegistry().registerSystem((ISystem)new PlayerTickSystem());
+        this.getEntityStoreRegistry().registerSystem((ISystem)new MobCounterSystem());
     }
 
     protected void start() {
