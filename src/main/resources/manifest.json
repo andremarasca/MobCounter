@@ -1,19 +1,15 @@
 {
-    "Group": "JarHax",
-    "Name": "EyeSpy",
+    "Group": "Marasca",
+    "Name": "MobCounter",
     "Version": "2026.1.20-5708",
     "Description": "",
     "Authors": [
         {
-            "Name": "Jaredlll08",
-            "Url": "https://blamejared.com"
-        },
-        {
-            "Name": "Darkhax",
-            "Url": "https://darkhax.net"
+            "Name": "Andre Luiz Marasca",
+            "Url": ""
         }
     ],
-    "Website": "https://www.curseforge.com/hytale/mods/eyespy",
+    "Website": "https://www.curseforge.com/hytale/mods/mobcounter",
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
     "Dependencies": {
@@ -22,5 +18,5 @@
     },
     "OptionalDependencies": {},
     "ServerVersion": "*",
-    "Main": "com.jarhax.eyespy.EyeSpy"
+    "Main": "com.marasca.mobcounter.MobCounter"
 }

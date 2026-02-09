@@ -1,4 +1,4 @@
-rootProject.name = "EyeSpy"
+rootProject.name = "MobCounter"
 
 plugins {
     // See documentation on https://scaffoldit.dev
@@ -21,12 +21,12 @@ hytale {
     }
 
     manifest {
-        Group = "JarHax"
-        Name = "EyeSpy"
+        Group = "Marasca"
+        Name = "MobCounter"
         Version = "2026.1.20-5708"
-        Main = "com.jarhax.eyespy.EyeSpy"
+        Main = "com.marasca.mobcounter.MobCounter"
         IncludesAssetPack = true
-        Website = "https://www.curseforge.com/hytale/mods/eyespy"
+        Website = "https://www.curseforge.com/hytale/mods/mobcounter"
         Dependencies = mapOf(
             "Hytale:EntityModule" to "*",
             "Hytale:AssetModule" to "*"

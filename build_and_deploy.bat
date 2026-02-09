@@ -1,5 +1,5 @@
 @echo off
-echo Building EyeSpy mod...
+echo Building MobCounteJar mod...
 call gradlew.bat build
 
 if %ERRORLEVEL% NEQ 0 (
@@ -11,7 +11,7 @@ if %ERRORLEVEL% NEQ 0 (
 echo Build successful!
 echo Copying Jar to Mods folder...
 
-copy /Y "build\libs\EyeSpy.jar" "..\EyeSpy-Repacked.jar"
+copy /Y "build\libs\MobCounter.jar" "..\MobCounterJar.jar"
 
 if %ERRORLEVEL% NEQ 0 (
     echo Failed to copy jar!
@@ -19,4 +19,4 @@ if %ERRORLEVEL% NEQ 0 (
     exit /b %ERRORLEVEL%
 )
 
-echo Done! Updated ..\EyeSpy-Repacked.jar
+echo Done! Updated ..\MobCounterJar.jar
